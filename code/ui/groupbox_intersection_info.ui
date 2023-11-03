@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>groupbox_intersection_info</class>
+ <widget class="QGroupBox" name="groupbox_intersection_info">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>438</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>GroupBox</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QGroupBox" name="group_isec_debug_info">
+        <property name="styleSheet">
+         <string notr="true">QGroupBox { 
+	border: 2px solid gray; 
+    border-radius: 3px; 
+	background-color: rgb(181, 181, 181);
+ } 
+
+QLabel {
+	background-color: rgb(181, 181, 181);
+}
+
+QLineEdit {
+	background-color: rgb(255, 255, 255)
+}</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <property name="leftMargin">
+          <number>13</number>
+         </property>
+         <property name="topMargin">
+          <number>13</number>
+         </property>
+         <property name="rightMargin">
+          <number>13</number>
+         </property>
+         <property name="bottomMargin">
+          <number>13</number>
+         </property>
+         <property name="spacing">
+          <number>13</number>
+         </property>
+         <item row="4" column="1">
+          <widget class="QLabel" name="label_83">
+           <property name="text">
+            <string>Polybez</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_38">
+           <property name="text">
+            <string>Position</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_82">
+           <property name="text">
+            <string>t-Value B</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="2">
+          <widget class="QLabel" name="label_isec_tval_a_polybez_id_2">
+           <property name="text">
+            <string>-1</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_31">
+           <property name="text">
+            <string>INTERSECTION</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="2">
+          <widget class="QLabel" name="label_isec_tan_a_polybez_id_2">
+           <property name="text">
+            <string>-1</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_76">
+           <property name="text">
+            <string>t-Value A</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="label_88">
+           <property name="text">
+            <string>Tangent A</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="2">
+          <widget class="QLabel" name="label_isec_tan_b_polybez_id_2">
+           <property name="text">
+            <string>-1</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QLabel" name="label_89">
+           <property name="text">
+            <string>Polybez</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="1">
+          <widget class="QLabel" name="label_95">
+           <property name="text">
+            <string>Polybez</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="3">
+          <layout class="QHBoxLayout" name="horizontalLayout_14">
+           <item>
+            <widget class="QLabel" name="label_72">
+             <property name="text">
+              <string>( x</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="input_isec_normal_x_2"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_73">
+             <property name="text">
+              <string>y</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="input_isec_normal_y_2"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_74">
+             <property name="text">
+              <string>z</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="input_isec_normal_z_2"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_75">
+             <property name="text">
+              <string>)</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="6" column="3">
+          <layout class="QHBoxLayout" name="horizontalLayout_18">
+           <item>
+            <widget class="QLabel" name="label_96">
+             <property name="text">
+              <string>( x</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="input_isec_tan_b_x_2"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_97">
+             <property name="text">
+              <string>y</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="input_isec_tan_b_y_2"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_98">
+             <property name="text">
+              <string>z</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="input_isec_tan_b_z_2"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_99">
+             <property name="text">
+              <string>)</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="6" column="0">
+          <widget class="QLabel" name="label_94">
+           <property name="text">
+            <string>Tangent B</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="3">
+          <layout class="QHBoxLayout" name="horizontalLayout_15">
+           <item>
+            <widget class="QLabel" name="label_78">
+             <property name="text">
+              <string>( x</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="input_isec_tval_a_x_2"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_79">
+             <property name="text">
+              <string>y</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="input_isec_tval_a_y_2"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_80">
+             <property name="text">
+              <string>z</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="input_isec_tval_a_z_2"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_81">
+             <property name="text">
+              <string>)</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="4" column="2">
+          <widget class="QLabel" name="label_isec_tval_b_polybez_id_2">
+           <property name="text">
+            <string>-1</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_71">
+           <property name="text">
+            <string>Normal </string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="3">
+          <layout class="QHBoxLayout" name="horizontalLayout_13">
+           <item>
+            <widget class="QLabel" name="label_44">
+             <property name="text">
+              <string>( x</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="input_isec_position_x_2"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_49">
+             <property name="text">
+              <string>y</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="input_isec_position_y_2"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_55">
+             <property name="text">
+              <string>z</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="input_isec_position_z_2"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_59">
+             <property name="text">
+              <string>)</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLabel" name="label_77">
+           <property name="text">
+            <string>Polybez</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="3">
+          <layout class="QHBoxLayout" name="horizontalLayout_17">
+           <item>
+            <widget class="QLabel" name="label_90">
+             <property name="text">
+              <string>( x</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="input_isec_tan_a_x_2"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_91">
+             <property name="text">
+              <string>y</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="input_isec_tan_a_y_2"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_92">
+             <property name="text">
+              <string>z</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="input_isec_tan_a_z_2"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_93">
+             <property name="text">
+              <string>)</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="4" column="3">
+          <layout class="QHBoxLayout" name="horizontalLayout_16">
+           <item>
+            <widget class="QLabel" name="label_84">
+             <property name="text">
+              <string>( x</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="input_isec_tval_b_x_2"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_85">
+             <property name="text">
+              <string>y</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="input_isec_tval_b_y_2"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_86">
+             <property name="text">
+              <string>z</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="input_isec_tval_b_z_2"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_87">
+             <property name="text">
+              <string>)</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="0" column="3">
+          <widget class="QLabel" name="label_isec_id_2">
+           <property name="styleSheet">
+            <string notr="true">QLabel {
+	color: rgb(0, 85, 255);
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,1397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Main_Interface</class>
+ <widget class="QMainWindow" name="Main_Interface">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1688</width>
+    <height>856</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1681</width>
+    <height>856</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1688</width>
+    <height>856</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>XShade V2 Graphical User Interface</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(211, 211, 211);</string>
+  </property>
+  <widget class="QWidget" name="widget_central">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>1681</width>
+     <height>810</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1681</width>
+     <height>810</height>
+    </size>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>5</number>
+    </property>
+    <property name="leftMargin">
+     <number>5</number>
+    </property>
+    <property name="topMargin">
+     <number>5</number>
+    </property>
+    <property name="rightMargin">
+     <number>5</number>
+    </property>
+    <property name="bottomMargin">
+     <number>5</number>
+    </property>
+    <item>
+     <layout class="QVBoxLayout" name="area_left">
+      <property name="spacing">
+       <number>5</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QGroupBox" name="group_toolbox">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>91</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>91</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QGroupBox { 
+	border: 2px solid gray; 
+    border-radius: 3px; 
+	background-color: rgb(181, 181, 181);
+ } </string>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+        <layout class="QGridLayout" name="area_toolbox" columnstretch="0,0">
+         <property name="sizeConstraint">
+          <enum>QLayout::SetFixedSize</enum>
+         </property>
+         <property name="leftMargin">
+          <number>13</number>
+         </property>
+         <property name="topMargin">
+          <number>13</number>
+         </property>
+         <property name="rightMargin">
+          <number>13</number>
+         </property>
+         <property name="bottomMargin">
+          <number>13</number>
+         </property>
+         <property name="spacing">
+          <number>13</number>
+         </property>
+         <item row="3" column="0">
+          <widget class="QPushButton" name="btn_draw_polygon">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>23</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../res/icons.qrc">
+             <normaloff>:/icons/pentagon.png</normaloff>:/icons/pentagon.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>15</width>
+             <height>15</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="1">
+          <widget class="QPushButton" name="btn_debug_info">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../res/icons.qrc">
+             <normaloff>:/icons/grid.png</normaloff>:/icons/grid.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>15</width>
+             <height>15</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QPushButton" name="pushButton_3">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../res/icons.qrc">
+             <normaloff>:/icons/circle.png</normaloff>:/icons/circle.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>15</width>
+             <height>15</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QToolButton" name="btn_palette">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>25</horstretch>
+             <verstretch>25</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../res/icons.qrc">
+             <normaloff>:/icons/paint-palette.png</normaloff>:/icons/paint-palette.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>15</width>
+             <height>15</height>
+            </size>
+           </property>
+           <property name="popupMode">
+            <enum>QToolButton::InstantPopup</enum>
+           </property>
+           <property name="autoRaise">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QPushButton" name="btn_remove_intersect">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>23</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../res/icons.qrc">
+             <normaloff>:/icons/vector-3.png</normaloff>:/icons/vector-3.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>15</width>
+             <height>15</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QPushButton" name="btn_draw">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../res/icons.qrc">
+             <normaloff>:/icons/pencil.png</normaloff>:/icons/pencil.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>15</width>
+             <height>15</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QPushButton" name="btn_save_xml">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>23</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../res/icons.qrc">
+             <normaloff>:/icons/save.png</normaloff>:/icons/save.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>15</width>
+             <height>15</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QPushButton" name="pushButton_2">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../res/icons.qrc">
+             <normaloff>:/icons/square-2.png</normaloff>:/icons/square-2.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>15</width>
+             <height>15</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QPushButton" name="btn_new_layer">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>23</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../res/icons.qrc">
+             <normaloff>:/icons/layer.png</normaloff>:/icons/layer.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>15</width>
+             <height>15</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QPushButton" name="btn_add_intersect">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../res/icons.qrc">
+             <normaloff>:/icons/vector-5.png</normaloff>:/icons/vector-5.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>15</width>
+             <height>15</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QPushButton" name="btn_snapshot">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>25</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../res/icons.qrc">
+             <normaloff>:/icons/snapshot.png</normaloff>:/icons/snapshot.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>15</width>
+             <height>15</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QPushButton" name="btn_select">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="autoFillBackground">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../res/icons.qrc">
+             <normaloff>:/icons/vector-2.png</normaloff>:/icons/vector-2.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>15</width>
+             <height>15</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="0">
+          <widget class="QPushButton" name="btn_inspector">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>23</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../res/icons.qrc">
+             <normaloff>:/icons/cursor.png</normaloff>:/icons/cursor.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>15</width>
+             <height>15</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="1">
+          <widget class="QPushButton" name="btn_flop_normal">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../res/icons.qrc">
+             <normaloff>:/icons/rotate-1.png</normaloff>:/icons/rotate-1.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>15</width>
+             <height>15</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="0">
+          <widget class="QPushButton" name="btn_flip_normal">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="icon">
+            <iconset resource="../res/icons.qrc">
+             <normaloff>:/icons/flip.png</normaloff>:/icons/flip.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>15</width>
+             <height>15</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="0">
+          <widget class="QPushButton" name="btn_marquee_rect">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>23</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../res/icons.qrc">
+             <normaloff>:/icons/marquee-3.png</normaloff>:/icons/marquee-3.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>15</width>
+             <height>15</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QPushButton" name="btn_new_file">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../res/icons.qrc">
+             <normaloff>:/icons/new.png</normaloff>:/icons/new.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>15</width>
+             <height>15</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="1">
+          <widget class="QPushButton" name="pushButton_4">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../res/icons.qrc">
+             <normaloff>:/icons/scale.png</normaloff>:/icons/scale.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>15</width>
+             <height>15</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="group_xshade_functions">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>91</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>91</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QGroupBox { 
+	border: 2px solid gray; 
+    border-radius: 3px; 
+	background-color: rgb(181, 181, 181);
+ } </string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <property name="spacing">
+          <number>13</number>
+         </property>
+         <property name="leftMargin">
+          <number>13</number>
+         </property>
+         <property name="topMargin">
+          <number>13</number>
+         </property>
+         <property name="rightMargin">
+          <number>13</number>
+         </property>
+         <property name="bottomMargin">
+          <number>13</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="btn_nlopt_solve">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>63</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>63</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>NLOPT</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_nlopt_solve_all">
+           <property name="text">
+            <string>ALL</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_gen_report">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>63</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>63</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>REPORT</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <spacer name="vspacer_a">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget_canvas_area" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>1000</width>
+        <height>800</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>1000</width>
+        <height>800</height>
+       </size>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(67, 67, 67);</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="area_right">
+      <property name="spacing">
+       <number>5</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QGroupBox" name="group_canvas_settings">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>112</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>112</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QGroupBox { 
+	border: 2px solid gray; 
+    border-radius: 3px; 
+	background-color: rgb(181, 181, 181);
+ } 
+
+QRadioButton {
+	background-color: rgb(181, 181, 181);
+}
+
+QCheckBox {
+	background-color: rgb(181, 181, 181);
+}</string>
+        </property>
+        <layout class="QGridLayout" name="area_canvas_settings">
+         <property name="leftMargin">
+          <number>13</number>
+         </property>
+         <property name="topMargin">
+          <number>13</number>
+         </property>
+         <property name="rightMargin">
+          <number>13</number>
+         </property>
+         <property name="bottomMargin">
+          <number>13</number>
+         </property>
+         <property name="spacing">
+          <number>13</number>
+         </property>
+         <item row="0" column="0" colspan="2">
+          <layout class="QHBoxLayout" name="horizontalLayout_9">
+           <property name="spacing">
+            <number>10</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>15</number>
+           </property>
+           <item>
+            <widget class="QRadioButton" name="radbtn_show_2D">
+             <property name="text">
+              <string>2D</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="radbtn_show_3D">
+             <property name="text">
+              <string>3D</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="3" column="0" colspan="2">
+          <widget class="QCheckBox" name="chkbox_show_labels">
+           <property name="text">
+            <string>LABELS</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="0" colspan="2">
+          <widget class="QCheckBox" name="chkbox_show_normals">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="text">
+            <string>NORMALS</string>
+           </property>
+           <property name="checked">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0" colspan="2">
+          <widget class="QCheckBox" name="chkbox_show_curves">
+           <property name="text">
+            <string>CURVES</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="11" column="0" colspan="2">
+          <widget class="QCheckBox" name="chkbox_show_patches">
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string>PATCHES</string>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="0" colspan="2">
+          <widget class="QCheckBox" name="chkbox_show_planes">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="autoFillBackground">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string>PLANES</string>
+           </property>
+           <property name="checked">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="0">
+          <widget class="QCheckBox" name="chkbox_show_fields">
+           <property name="text">
+            <string>FIELDS</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QCheckBox" name="chkbox_show_isecs">
+           <property name="text">
+            <string>ISECS</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="group_layers">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>112</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>112</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QGroupBox { 
+	border: 2px solid gray; 
+    border-radius: 3px; 
+	background-color: rgb(181, 181, 181);
+ } 
+
+QCheckBox {
+	background-color: rgb(181, 181, 181);
+}
+
+QSpinBox {
+	background-color: rgb(255, 255, 255);
+}</string>
+        </property>
+        <layout class="QVBoxLayout" name="area_layers">
+         <property name="spacing">
+          <number>13</number>
+         </property>
+         <property name="leftMargin">
+          <number>13</number>
+         </property>
+         <property name="topMargin">
+          <number>13</number>
+         </property>
+         <property name="rightMargin">
+          <number>13</number>
+         </property>
+         <property name="bottomMargin">
+          <number>13</number>
+         </property>
+         <item>
+          <widget class="QCheckBox" name="chkbox_show_all_layers">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>SHOW ALL</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSpinBox" name="spnbox_layers">
+           <property name="maximum">
+            <number>50</number>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="vspacer_b">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menu_bar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1685</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>1232</width>
+     <height>23</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1685</width>
+     <height>23</height>
+    </size>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QMenuBar {
+	border-bottom: 2px solid gray;
+}</string>
+   </property>
+   <widget class="QMenu" name="menu_bar_file">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="act_save_xml"/>
+    <addaction name="act_load_xml"/>
+    <addaction name="act_load_maya"/>
+    <addaction name="act_export_obj"/>
+    <addaction name="act_load_matlab"/>
+   </widget>
+   <widget class="QMenu" name="menu_bar_help">
+    <property name="title">
+     <string>Help</string>
+    </property>
+   </widget>
+   <addaction name="menu_bar_file"/>
+   <addaction name="menu_bar_help"/>
+  </widget>
+  <widget class="QStatusBar" name="status_bar">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>1232</width>
+     <height>23</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1685</width>
+     <height>23</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QStatusBar {
+	border-top: 2px solid gray;
+}</string>
+   </property>
+  </widget>
+  <action name="act_load_xml">
+   <property name="text">
+    <string>Load XML</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="act_save_xml">
+   <property name="text">
+    <string>Save XML</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="act_load_background">
+   <property name="text">
+    <string>Load Background</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+L</string>
+   </property>
+  </action>
+  <action name="act_next_render_mode">
+   <property name="text">
+    <string>Next Rendering Mode</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+M</string>
+   </property>
+  </action>
+  <action name="act_toggle_show_curves">
+   <property name="text">
+    <string>Toggle Show Curves</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+C</string>
+   </property>
+  </action>
+  <action name="act_toggle_show_planes">
+   <property name="text">
+    <string>Toggle Show Planes</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+P</string>
+   </property>
+  </action>
+  <action name="act_export_obj">
+   <property name="text">
+    <string>Export OBJ</string>
+   </property>
+   <property name="toolTip">
+    <string>Export OBJ</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+  </action>
+  <action name="act_load_maya">
+   <property name="text">
+    <string>Load Maya</string>
+   </property>
+  </action>
+  <action name="act_load_matlab">
+   <property name="text">
+    <string>Load Planes from MATLAB</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+M</string>
+   </property>
+  </action>
+  <action name="act_to_3D">
+   <property name="text">
+    <string>Switch to 3D</string>
+   </property>
+   <property name="toolTip">
+    <string>Switch to 3D</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+3</string>
+   </property>
+  </action>
+  <action name="act_to_2D">
+   <property name="text">
+    <string>Switch to 2D</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+2</string>
+   </property>
+  </action>
+  <action name="actionSaveNormalMap">
+   <property name="text">
+    <string>Save normal map</string>
+   </property>
+  </action>
+  <action name="actionSaveDepthMap">
+   <property name="text">
+    <string>Save depth map</string>
+   </property>
+  </action>
+  <action name="act_enable_debug_mode">
+   <property name="text">
+    <string>Enable</string>
+   </property>
+  </action>
+  <action name="act_disable_debug_mode">
+   <property name="text">
+    <string>Disable</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../res/icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

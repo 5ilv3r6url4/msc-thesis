@@ -1,0 +1,6 @@
+#ifndef UTIL_DATA_DEFS_H
+#define UTIL_DATA_DEFS_H
+
+enum curve_type_t {CURVE_CROSS, CURVE_BOUNDARY, CURVE_SILHOUETTE};
+
+#endif // UTIL_DATA_DEFS_H

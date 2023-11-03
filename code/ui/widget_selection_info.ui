@@ -1,0 +1,1637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget_Selection_Info</class>
+ <widget class="QWidget" name="Widget_Selection_Info">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>453</width>
+    <height>888</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>453</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>453</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>5</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QGroupBox" name="group_polybez_a_info">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox { 
+	border: 2px solid gray; 
+    border-radius: 3px; 
+	background-color: rgb(181, 181, 181);
+ } 
+
+QLabel {
+	background-color: rgb(181, 181, 181);
+}
+
+QLineEdit {
+	background-color: rgb(255, 255, 255)
+}
+
+QComboBox {
+	background-color: rgb(255, 255, 255);
+}
+
+QComboBox QAbstractItemView {
+	background-color: rgb(255, 255, 255);
+}
+
+QSpinBox {
+	background-color: rgb(255, 255, 255);
+}</string>
+     </property>
+     <layout class="QFormLayout" name="formLayout">
+      <property name="horizontalSpacing">
+       <number>13</number>
+      </property>
+      <property name="verticalSpacing">
+       <number>13</number>
+      </property>
+      <property name="leftMargin">
+       <number>13</number>
+      </property>
+      <property name="topMargin">
+       <number>13</number>
+      </property>
+      <property name="rightMargin">
+       <number>13</number>
+      </property>
+      <property name="bottomMargin">
+       <number>13</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>POLYBEZIER CURVE I</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Curve Type</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <layout class="QHBoxLayout" name="h0">
+        <property name="leftMargin">
+         <number>26</number>
+        </property>
+        <property name="rightMargin">
+         <number>17</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QComboBox" name="cmbobox_polybez_a_curve_type">
+          <property name="editable">
+           <bool>false</bool>
+          </property>
+          <property name="currentText">
+           <string>cross curve</string>
+          </property>
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <property name="maxVisibleItems">
+           <number>3</number>
+          </property>
+          <property name="maxCount">
+           <number>3</number>
+          </property>
+          <item>
+           <property name="text">
+            <string>cross curve</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>boundary curve</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>silhouette curve</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Plane Normal</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <layout class="QHBoxLayout" name="h1">
+        <item>
+         <widget class="QLabel" name="label_7">
+          <property name="text">
+           <string>( x</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_a_normal_x">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="inputMethodHints">
+           <set>Qt::ImhNone</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_13">
+          <property name="text">
+           <string>y</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_a_normal_y">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_9">
+          <property name="text">
+           <string>z</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_a_normal_z">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_17">
+          <property name="text">
+           <string>)</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Bezier Segment</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <layout class="QHBoxLayout" name="h2">
+        <property name="leftMargin">
+         <number>26</number>
+        </property>
+        <property name="rightMargin">
+         <number>17</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QSpinBox" name="spnbox_polybez_a_segment">
+          <property name="inputMethodHints">
+           <set>Qt::ImhNone</set>
+          </property>
+          <property name="buttonSymbols">
+           <enum>QAbstractSpinBox::UpDownArrows</enum>
+          </property>
+          <property name="prefix">
+           <string>segment </string>
+          </property>
+          <property name="minimum">
+           <number>-1</number>
+          </property>
+          <property name="maximum">
+           <number>-1</number>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>Segment Control Point 0          </string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <layout class="QHBoxLayout" name="h3">
+        <item>
+         <widget class="QLabel" name="label_18">
+          <property name="text">
+           <string>( x</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_a_ctrl_point_0_x">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_8">
+          <property name="text">
+           <string>y</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_a_ctrl_point_0_y">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_14">
+          <property name="text">
+           <string>z</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_a_ctrl_point_0_z">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_29">
+          <property name="text">
+           <string>)</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="label_26">
+        <property name="text">
+         <string>Segment Control Point 1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <layout class="QHBoxLayout" name="h4">
+        <item>
+         <widget class="QLabel" name="label_23">
+          <property name="text">
+           <string>( x</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_a_ctrl_point_1_x">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_12">
+          <property name="text">
+           <string>y</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_a_ctrl_point_1_y">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_15">
+          <property name="text">
+           <string>z</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_a_ctrl_point_1_z">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_10">
+          <property name="text">
+           <string>)</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="label_27">
+        <property name="text">
+         <string>Segment Control Point 2</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="1">
+       <layout class="QHBoxLayout" name="h5">
+        <item>
+         <widget class="QLabel" name="label_16">
+          <property name="text">
+           <string>( x</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_a_ctrl_point_2_x">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_24">
+          <property name="text">
+           <string>y</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_a_ctrl_point_2_y">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_25">
+          <property name="text">
+           <string>z</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_a_ctrl_point_2_z">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_22">
+          <property name="text">
+           <string>)</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="8" column="0">
+       <widget class="QLabel" name="label_28">
+        <property name="text">
+         <string>Segment Control Point 3</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="1">
+       <layout class="QHBoxLayout" name="h6">
+        <item>
+         <widget class="QLabel" name="label_11">
+          <property name="text">
+           <string>( x</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_a_ctrl_point_3_x">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_20">
+          <property name="text">
+           <string>y</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_a_ctrl_point_3_y">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_21">
+          <property name="text">
+           <string>z</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_a_ctrl_point_3_z">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_19">
+          <property name="text">
+           <string>)</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="0" column="1">
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <property name="spacing">
+         <number>6</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_65">
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+	color: rgb(255, 57, 57);
+}</string>
+          </property>
+          <property name="text">
+           <string>ID</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_polybez_a_id">
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+	color: rgb(255, 57, 57);
+}</string>
+          </property>
+          <property name="text">
+           <string>-1</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_3">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="group_polybez_b_info">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox { 
+	border: 2px solid gray; 
+    border-radius: 3px; 
+	background-color: rgb(181, 181, 181);
+ } 
+
+QLabel {
+	background-color: rgb(181, 181, 181);
+}
+
+QLineEdit {
+	background-color: rgb(255, 255, 255)
+}
+
+QComboBox {
+	background-color: rgb(255, 255, 255);
+}
+
+QComboBox QAbstractItemView {
+	background-color: rgb(255, 255, 255);
+}
+
+QSpinBox {
+	background-color: rgb(255, 255, 255);
+}</string>
+     </property>
+     <layout class="QFormLayout" name="formLayout_2">
+      <property name="horizontalSpacing">
+       <number>13</number>
+      </property>
+      <property name="verticalSpacing">
+       <number>13</number>
+      </property>
+      <property name="leftMargin">
+       <number>13</number>
+      </property>
+      <property name="topMargin">
+       <number>13</number>
+      </property>
+      <property name="rightMargin">
+       <number>13</number>
+      </property>
+      <property name="bottomMargin">
+       <number>13</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>POLYBEZIER CURVE II</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_66">
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+	color: rgb(170, 0, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>ID</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_polybez_b_id">
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+	color: rgb(170, 0, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>-1</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_4">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_30">
+        <property name="text">
+         <string>Curve Type</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <layout class="QHBoxLayout" name="h7">
+        <property name="leftMargin">
+         <number>26</number>
+        </property>
+        <property name="rightMargin">
+         <number>17</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QComboBox" name="cmbobox_polybez_b_curve_type">
+          <property name="editable">
+           <bool>false</bool>
+          </property>
+          <property name="currentText">
+           <string>cross curve</string>
+          </property>
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <property name="maxVisibleItems">
+           <number>3</number>
+          </property>
+          <property name="maxCount">
+           <number>3</number>
+          </property>
+          <item>
+           <property name="text">
+            <string>cross curve</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>boundary curve</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>silhouette curve</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_32">
+        <property name="text">
+         <string>Plane Normal</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <layout class="QHBoxLayout" name="h8">
+        <item>
+         <widget class="QLabel" name="label_33">
+          <property name="text">
+           <string>( x</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_b_normal_x">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_34">
+          <property name="text">
+           <string>y</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_b_normal_y">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_35">
+          <property name="text">
+           <string>z</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_b_normal_z">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_36">
+          <property name="text">
+           <string>)</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_37">
+        <property name="text">
+         <string>Bezier Segment</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <layout class="QHBoxLayout" name="h9">
+        <property name="leftMargin">
+         <number>26</number>
+        </property>
+        <property name="rightMargin">
+         <number>17</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QSpinBox" name="spnbox_polybez_b_segment">
+          <property name="inputMethodHints">
+           <set>Qt::ImhNone</set>
+          </property>
+          <property name="buttonSymbols">
+           <enum>QAbstractSpinBox::UpDownArrows</enum>
+          </property>
+          <property name="prefix">
+           <string>segment </string>
+          </property>
+          <property name="minimum">
+           <number>-1</number>
+          </property>
+          <property name="maximum">
+           <number>-1</number>
+          </property>
+          <property name="value">
+           <number>-1</number>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="label_39">
+        <property name="text">
+         <string>Segment Control Point 0          </string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <layout class="QHBoxLayout" name="h10">
+        <item>
+         <widget class="QLabel" name="label_40">
+          <property name="text">
+           <string>( x</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_b_ctrl_point_0_x">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_41">
+          <property name="text">
+           <string>y</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_b_ctrl_point_0_y">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_42">
+          <property name="text">
+           <string>z</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_b_ctrl_point_0_z">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_43">
+          <property name="text">
+           <string>)</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="label_45">
+        <property name="text">
+         <string>Segment Control Point 1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <layout class="QHBoxLayout" name="h11">
+        <item>
+         <widget class="QLabel" name="label_46">
+          <property name="text">
+           <string>( x</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_b_ctrl_point_1_x">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_47">
+          <property name="text">
+           <string>y</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_b_ctrl_point_1_y">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_48">
+          <property name="text">
+           <string>z</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_b_ctrl_point_1_z">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_50">
+          <property name="text">
+           <string>)</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="label_51">
+        <property name="text">
+         <string>Segment Control Point 2</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="1">
+       <layout class="QHBoxLayout" name="h12">
+        <item>
+         <widget class="QLabel" name="label_52">
+          <property name="text">
+           <string>( x</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_b_ctrl_point_2_x">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_53">
+          <property name="text">
+           <string>y</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_b_ctrl_point_2_y">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_54">
+          <property name="text">
+           <string>z</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_b_ctrl_point_2_z">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_56">
+          <property name="text">
+           <string>)</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="8" column="0">
+       <widget class="QLabel" name="label_57">
+        <property name="text">
+         <string>Segment Control Point 3</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="1">
+       <layout class="QHBoxLayout" name="h13">
+        <item>
+         <widget class="QLabel" name="label_58">
+          <property name="text">
+           <string>( x</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_b_ctrl_point_3_x">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_60">
+          <property name="text">
+           <string>y</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_b_ctrl_point_3_y">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_61">
+          <property name="text">
+           <string>z</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_polybez_b_ctrl_point_3_z">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_62">
+          <property name="text">
+           <string>)</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="group_isec_info">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox { 
+	border: 2px solid gray; 
+    border-radius: 3px; 
+	background-color: rgb(181, 181, 181);
+ } 
+
+QLabel {
+	background-color: rgb(181, 181, 181);
+}
+
+QLineEdit {
+	background-color: rgb(255, 255, 255)
+}</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="leftMargin">
+       <number>13</number>
+      </property>
+      <property name="topMargin">
+       <number>13</number>
+      </property>
+      <property name="rightMargin">
+       <number>13</number>
+      </property>
+      <property name="bottomMargin">
+       <number>13</number>
+      </property>
+      <property name="spacing">
+       <number>13</number>
+      </property>
+      <item row="7" column="3">
+       <layout class="QHBoxLayout" name="h15">
+        <item>
+         <widget class="QLabel" name="label_96">
+          <property name="text">
+           <string>( x</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_isec_tan_b_x">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_97">
+          <property name="text">
+           <string>y</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_isec_tan_b_y">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_98">
+          <property name="text">
+           <string>z</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_isec_tan_b_z">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_99">
+          <property name="text">
+           <string>)</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLabel" name="label_77">
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+	color: rgb(255, 57, 57);
+}</string>
+        </property>
+        <property name="text">
+         <string>Polybez</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_71">
+        <property name="text">
+         <string>Normal </string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QLabel" name="label_83">
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+	color: rgb(170, 0, 255);
+}</string>
+        </property>
+        <property name="text">
+         <string>Polybez</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="label_82">
+        <property name="text">
+         <string>t-Value B</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_38">
+        <property name="text">
+         <string>Position</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="label_88">
+        <property name="text">
+         <string>Tangent A</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <layout class="QHBoxLayout" name="h20">
+        <item>
+         <widget class="QLabel" name="label_44">
+          <property name="text">
+           <string>( x</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_isec_position_x">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_49">
+          <property name="text">
+           <string>y</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_isec_position_y">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_55">
+          <property name="text">
+           <string>z</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_isec_position_z">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_59">
+          <property name="text">
+           <string>)</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="7" column="1">
+       <widget class="QLabel" name="label_95">
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+	color: rgb(170, 0, 255);
+}</string>
+        </property>
+        <property name="text">
+         <string>Polybez</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_76">
+        <property name="text">
+         <string>t-Value A</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_31">
+        <property name="text">
+         <string>INTERSECTION</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="3">
+       <layout class="QHBoxLayout" name="h22">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_64">
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+	color: rgb(181, 181, 181);
+}</string>
+          </property>
+          <property name="text">
+           <string>( x</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_isec_tval_b">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>67</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>67</width>
+            <height>16777215</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="label_94">
+        <property name="text">
+         <string>Tangent B</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="3">
+       <layout class="QHBoxLayout" name="h19">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_63">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+	color: rgb(181, 181, 181);
+}</string>
+          </property>
+          <property name="text">
+           <string>( x</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_isec_tval_a">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>67</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>67</width>
+            <height>16777215</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item row="6" column="3">
+       <layout class="QHBoxLayout" name="h21">
+        <item>
+         <widget class="QLabel" name="label_90">
+          <property name="text">
+           <string>( x</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_isec_tan_a_x">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_91">
+          <property name="text">
+           <string>y</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_isec_tan_a_y">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_92">
+          <property name="text">
+           <string>z</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_isec_tan_a_z">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_93">
+          <property name="text">
+           <string>)</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="3" column="3">
+       <layout class="QHBoxLayout" name="h14">
+        <item>
+         <widget class="QLabel" name="label_72">
+          <property name="text">
+           <string>( x</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_isec_normal_x">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_73">
+          <property name="text">
+           <string>y</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_isec_normal_y">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_74">
+          <property name="text">
+           <string>z</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="input_isec_normal_z">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_75">
+          <property name="text">
+           <string>)</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="6" column="1">
+       <widget class="QLabel" name="label_89">
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+	color: rgb(255, 57, 57);
+}</string>
+        </property>
+        <property name="text">
+         <string>Polybez</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_67">
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+	color: rgb(0, 85, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>ID</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_isec_id">
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+	color: rgb(0, 85, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>-1</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_5">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item row="7" column="2">
+       <widget class="QLabel" name="label_isec_tan_b_polybez_id">
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+	color: rgb(170, 0, 255);
+}</string>
+        </property>
+        <property name="text">
+         <string>  </string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="2">
+       <widget class="QLabel" name="label_isec_tan_a_polybez_id">
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+	color: rgb(255, 57, 57);
+}</string>
+        </property>
+        <property name="text">
+         <string>  </string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="2">
+       <widget class="QLabel" name="label_isec_tval_b_polybez_id">
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+	color: rgb(170, 0, 255);
+}</string>
+        </property>
+        <property name="text">
+         <string>  </string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="2">
+       <widget class="QLabel" name="label_isec_tval_a_polybez_id">
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+	color: rgb(255, 57, 57);
+}</string>
+        </property>
+        <property name="text">
+         <string>  </string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

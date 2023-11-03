@@ -1,0 +1,478 @@
+<!DOCTYPE CurveSetXML>
+<curve_set image_width="900" image_height="721">
+ <curve curve_type="0" layer="0">
+  <control_points_set>
+   <control_point x="341.8645276292335" y="124.7142857142857"/>
+   <control_point x="376.5650623885919" y="140.1428571428571"/>
+   <control_point x="395.2874825909467" y="198.3842534714504"/>
+   <control_point x="487.8301043219077" y="429.3216630196937"/>
+   <control_point x="504.2800006966457" y="470.3718989549057"/>
+   <control_point x="529.7284886000216" y="538.7605096087258"/>
+   <control_point x="520.5080213903743" y="574.7142857142857"/>
+   <control_point x="511.970053829179" y="608.0067607171331"/>
+   <control_point x="466.5294117647059" y="663.4285714285714"/>
+   <control_point x="397.1283422459893" y="735.4285714285714"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="0" layer="0">
+  <control_points_set>
+   <control_point x="257.0409982174688" y="524.5714285714286"/>
+   <control_point x="284.044257519006" y="464.309517760888"/>
+   <control_point x="328.3195661879127" y="353.4587524228497"/>
+   <control_point x="332.8680926916221" y="339.4285714285714"/>
+   <control_point x="348.2905525846703" y="291.8571428571428"/>
+   <control_point x="361.1426024955437" y="290.5714285714286"/>
+   <control_point x="395.843137254902" y="293.1428571428572"/>
+   <control_point x="439.151854156123" y="296.3521815179427"/>
+   <control_point x="491.0895218505404" y="297.6040440112902"/>
+   <control_point x="530.2500000000001" y="301.048951048951"/>
+   <control_point x="571.9162210338681" y="304.7142857142857"/>
+   <control_point x="593.7647058823529" y="315"/>
+   <control_point x="606.6167557932264" y="326.5714285714286"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="0" layer="0">
+  <control_points_set>
+   <control_point x="313.5900178253119" y="720"/>
+   <control_point x="339.8843546360421" y="673.7084359841471"/>
+   <control_point x="402.4307370099178" y="558.9223897343421"/>
+   <control_point x="442.7499999999999" y="521.3286713286714"/>
+   <control_point x="458.5000000000001" y="506.6433566433567"/>
+   <control_point x="673.4474153297683" y="500.1428571428572"/>
+   <control_point x="683.729055258467" y="546.4285714285713"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="0" layer="0">
+  <control_points_set>
+   <control_point x="467.8146167557932" y="151.7142857142857"/>
+   <control_point x="519.2228163992869" y="204.4285714285714"/>
+   <control_point x="535.9304812834224" y="236.5714285714286"/>
+   <control_point x="565.4901960784314" y="297"/>
+   <control_point x="601.7013423463989" y="371.0260132392679"/>
+   <control_point x="653.828626974363" y="530.4435328978126"/>
+   <control_point x="652.8841354723708" y="550.2857142857143"/>
+   <control_point x="651.5989304812833" y="577.2857142857143"/>
+   <control_point x="640.0320855614972" y="596.5714285714284"/>
+   <control_point x="619.4688057040997" y="622.2857142857142"/>
+   <control_point x="593.3227270876274" y="654.9812638534203"/>
+   <control_point x="565.4901960784314" y="678.8571428571429"/>
+   <control_point x="506.3707664884135" y="723.8571428571429"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="2" layer="0">
+  <control_points_set>
+   <control_point x="505.0855614973262" y="168.4285714285714"/>
+   <control_point x="422.8324420677362" y="140.1428571428571"/>
+   <control_point x="377.943263680995" y="125.6509406469143"/>
+   <control_point x="295.5971479500891" y="131.1428571428571"/>
+   <control_point x="276.319073083779" y="132.4285714285714"/>
+   <control_point x="260.0925238269671" y="166.0823731127555"/>
+   <control_point x="250.6149732620321" y="196.7142857142857"/>
+   <control_point x="233.9073083778966" y="250.7142857142857"/>
+   <control_point x="231.3368983957219" y="271.2857142857143"/>
+   <control_point x="214.6292335115864" y="340.7142857142857"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="2" layer="0">
+  <control_points_set>
+   <control_point x="488.3778966131907" y="156.8571428571428"/>
+   <control_point x="547.4973262032086" y="228.8571428571429"/>
+   <control_point x="555.2085561497325" y="235.2857142857143"/>
+   <control_point x="611.7575757575758" y="351"/>
+   <control_point x="647.5284384577031" y="424.1966682257907"/>
+   <control_point x="690.1550802139038" y="531"/>
+   <control_point x="667.0213903743315" y="587.5714285714284"/>
+   <control_point x="648.8466818002958" y="632.0160993106298"/>
+   <control_point x="591.1942959001782" y="682.7142857142857"/>
+   <control_point x="523.0784313725489" y="722.5714285714286"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="1" layer="0">
+  <control_points_set>
+   <control_point x="215.9144385026738" y="317.5714285714286"/>
+   <control_point x="222.0984684914248" y="397.4332685965551"/>
+   <control_point x="230.5122929454683" y="401.797277867348"/>
+   <control_point x="254.4705882352941" y="502.7142857142857"/>
+   <control_point x="273.404909365833" y="582.4693355202909"/>
+   <control_point x="295.5181006006947" y="706.094527167465"/>
+   <control_point x="322.5864527629233" y="720"/>
+   <control_point x="370.1390374331552" y="744.4285714285714"/>
+   <control_point x="483.2370766488415" y="721.2857142857142"/>
+   <control_point x="556.49376114082" y="712.2857142857143"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="0" layer="0">
+  <control_points_set>
+   <control_point x="239.048128342246" y="217.2857142857143"/>
+   <control_point x="264.7522281639929" y="304.7142857142857"/>
+   <control_point x="276.319073083779" y="336.857142857143"/>
+   <control_point x="307.1639928698752" y="433.2857142857143"/>
+   <control_point x="339.8846882385641" y="535.578407294253"/>
+   <control_point x="371.4242424242424" y="658.2857142857143"/>
+   <control_point x="407.4099821746881" y="658.2857142857143"/>
+   <control_point x="443.7623681402173" y="658.2857142857143"/>
+   <control_point x="556.8266132404869" y="660.7549805713713"/>
+   <control_point x="627.1800356506238" y="654.4285714285713"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="1" layer="1">
+  <control_points_set>
+   <control_point x="291.7415329768271" y="187.7142857142857"/>
+   <control_point x="267.9554835964042" y="249.6584916971016"/>
+   <control_point x="233.2150785618646" y="331.5182514504287"/>
+   <control_point x="226.1960784313725" y="394.7142857142857"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="1" layer="1">
+  <control_points_set>
+   <control_point x="296.8823529411765" y="687.8571428571428"/>
+   <control_point x="338.0089126559715" y="628.7142857142856"/>
+   <control_point x="403.554367201426" y="534.8571428571429"/>
+   <control_point x="408.6951871657755" y="497.5714285714287"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="1" layer="1">
+  <control_points_set>
+   <control_point x="223.6256684491979" y="380.5714285714286"/>
+   <control_point x="242.903743315508" y="469.2857142857141"/>
+   <control_point x="267.3226381461675" y="596.5714285714284"/>
+   <control_point x="303.3083778966132" y="686.5714285714286"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="1" layer="1">
+  <control_points_set>
+   <control_point x="287.8859180035651" y="183.8571428571429"/>
+   <control_point x="309.7344028520499" y="210.8571428571429"/>
+   <control_point x="420.2620320855615" y="468"/>
+   <control_point x="402.2691622103387" y="537.4285714285716"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="0" layer="1">
+  <control_points_set>
+   <control_point x="241" y="258"/>
+   <control_point x="292.836679995119" y="257.9999999999999"/>
+   <control_point x="398.0016953090046" y="254.8131162738958"/>
+   <control_point x="422" y="276"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="0" layer="1">
+  <control_points_set>
+   <control_point x="322.5864527629233" y="245.5714285714286"/>
+   <control_point x="277.6042780748663" y="345.8571428571428"/>
+   <control_point x="287.8859180035651" y="349.7142857142857"/>
+   <control_point x="296.8823529411765" y="379.2857142857143"/>
+   <control_point x="302.5303168820054" y="397.8506640028485"/>
+   <control_point x="340.7165775401069" y="532.1428571428572"/>
+   <control_point x="369" y="613"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="0" layer="1">
+  <control_points_set>
+   <control_point x="242.903743315508" y="473.1428571428571"/>
+   <control_point x="270.2164650017891" y="479.1187049231129"/>
+   <control_point x="418" y="481.0000000000001"/>
+   <control_point x="431.9999999999999" y="432"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="0" layer="2">
+  <control_points_set>
+   <control_point x="241.6185383244207" y="264.8571428571428"/>
+   <control_point x="243.8033795204253" y="247.9461941217863"/>
+   <control_point x="273.7486631016043" y="230.1428571428572"/>
+   <control_point x="290.4563279857397" y="244.2857142857143"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="0" layer="2">
+  <control_points_set>
+   <control_point x="245.4741532976827" y="172.2857142857142"/>
+   <control_point x="255.7557932263815" y="244.2857142857143"/>
+   <control_point x="276.319073083779" y="338.1428571428572"/>
+   <control_point x="323.8716577540107" y="381.8571428571428"/>
+   <control_point x="376.6410863689646" y="430.3671848548759"/>
+   <control_point x="424.1176470588234" y="399.8571428571428"/>
+   <control_point x="487.0926916221034" y="416.5714285714286"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="1" layer="2">
+  <control_points_set>
+   <control_point x="218.4848484848485" y="180"/>
+   <control_point x="239.048128342246" y="169.7142857142858"/>
+   <control_point x="254.3182238838129" y="172.9396241699679"/>
+   <control_point x="267.3226381461675" y="190.2857142857143"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="2" layer="2">
+  <control_points_set>
+   <control_point x="259.6114081996434" y="178.7142857142857"/>
+   <control_point x="282.6689906847615" y="234.2072184323761"/>
+   <control_point x="300.7379679144385" y="291.8571428571428"/>
+   <control_point x="316.1604278074866" y="344.5714285714286"/>
+   <control_point x="334.9409651819793" y="408.7636923148465"/>
+   <control_point x="413.8360071301248" y="388.2857142857143"/>
+   <control_point x="485.807486631016" y="403.7142857142857"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="1" layer="2">
+  <control_points_set>
+   <control_point x="284.030303030303" y="360"/>
+   <control_point x="295.5971479500891" y="345.8571428571428"/>
+   <control_point x="313.9383470502179" y="352.8024043355218"/>
+   <control_point x="327.7272727272727" y="358.7142857142857"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="2" layer="2">
+  <control_points_set>
+   <control_point x="227.4812834224599" y="165.8571428571429"/>
+   <control_point x="228.5528099447806" y="231.7401200498585"/>
+   <control_point x="251.7973950483473" y="309.2914728483205"/>
+   <control_point x="291.7415329768271" y="362.5714285714286"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="2" layer="2">
+  <control_points_set>
+   <control_point x="289.1711229946524" y="349.7142857142857"/>
+   <control_point x="310.6187683275328" y="376.463871267266"/>
+   <control_point x="341.469148313987" y="417.0518088908398"/>
+   <control_point x="381.7058823529412" y="419.1428571428571"/>
+   <control_point x="425.8712910622512" y="421.4380732653145"/>
+   <control_point x="459.1020955095167" y="411.57058452819"/>
+   <control_point x="497.374331550802" y="430.7142857142857"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="0" layer="2">
+  <control_points_set>
+   <control_point x="389.4171122994653" y="385.7142857142857"/>
+   <control_point x="404.8395721925134" y="398.5714285714286"/>
+   <control_point x="404.8395721925134" y="411.4285714285714"/>
+   <control_point x="395.843137254902" y="423"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="1" layer="2">
+  <control_points_set>
+   <control_point x="475.5258467023173" y="394.7142857142857"/>
+   <control_point x="479.0386048487887" y="404.2974792041064"/>
+   <control_point x="484.5222816399287" y="422.0694110587123"/>
+   <control_point x="484.5222816399287" y="434.5714285714286"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="2" layer="2">
+  <control_points_set>
+   <control_point x="418.9768270944741" y="235.2857142857143"/>
+   <control_point x="377.180935854259" y="229.8296557207419"/>
+   <control_point x="331.6901863537315" y="226.940877461407"/>
+   <control_point x="295.5971479500891" y="203.1428571428571"/>
+   <control_point x="275.6320056737492" y="189.9787988488031"/>
+   <control_point x="269.8930481283422" y="164.5714285714286"/>
+   <control_point x="250.6149732620321" y="180"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="1" layer="2">
+  <control_points_set>
+   <control_point x="398.4135472370767" y="207"/>
+   <control_point x="409.642231094042" y="232.6757337230353"/>
+   <control_point x="404.5324000935271" y="220.6624948233255"/>
+   <control_point x="413.8360071301248" y="243"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="2" layer="2">
+  <control_points_set>
+   <control_point x="411.2655971479501" y="216"/>
+   <control_point x="384.2762923351158" y="214.7142857142857"/>
+   <control_point x="344.4349376114082" y="207"/>
+   <control_point x="320.0160427807486" y="198"/>
+   <control_point x="297.5377932651468" y="189.7152579163242"/>
+   <control_point x="275.6813704747342" y="163.3261244972832"/>
+   <control_point x="263.4670231729055" y="156.8571428571428"/>
+   <control_point x="241.6185383244207" y="145.2857142857143"/>
+   <control_point x="227.4812834224599" y="159.4285714285714"/>
+   <control_point x="233.9073083778966" y="181.2857142857142"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="0" layer="2">
+  <control_points_set>
+   <control_point x="236.4777183600713" y="176.1428571428572"/>
+   <control_point x="233.8364993049894" y="178.9912910796558"/>
+   <control_point x="244.1889483065954" y="147.8571428571428"/>
+   <control_point x="276.319073083779" y="177.4285714285714"/>
+   <control_point x="312.6951873830916" y="210.9078583335548"/>
+   <control_point x="357.0807166239706" y="219.8571428571428"/>
+   <control_point x="404.8395721925134" y="219.8571428571428"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="0" layer="2">
+  <control_points_set>
+   <control_point x="353.4313725490196" y="203.1428571428571"/>
+   <control_point x="367.5686274509804" y="216"/>
+   <control_point x="362.427807486631" y="223.7142857142857"/>
+   <control_point x="352.1461675579322" y="232.7142857142857"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="0" layer="2">
+  <control_points_set>
+   <control_point x="248.0445632798574" y="151.7142857142857"/>
+   <control_point x="267.3226381461675" y="164.5714285714286"/>
+   <control_point x="260.8966131907309" y="164.5714285714286"/>
+   <control_point x="267.3226381461675" y="180"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="2" layer="2">
+  <control_points_set>
+   <control_point x="515.367201426025" y="784.2857142857143"/>
+   <control_point x="488.3778966131907" y="802.2857142857143"/>
+   <control_point x="466.5294117647059" y="797.1428571428571"/>
+   <control_point x="443.3957219251337" y="781.7142857142857"/>
+   <control_point x="428.4835210982855" y="771.7688789413174"/>
+   <control_point x="418.9933728245849" y="743.4882112174652"/>
+   <control_point x="416" y="737"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="0" layer="2">
+  <control_points_set>
+   <control_point x="435.6844919786096" y="775.2857142857143"/>
+   <control_point x="450.119763389153" y="774.7370813504684"/>
+   <control_point x="458.5739750445633" y="768.4285714285714"/>
+   <control_point x="465.0000000000001" y="753"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="0" layer="2">
+  <control_points_set>
+   <control_point x="439.5401069518717" y="743.1428571428571"/>
+   <control_point x="458.4046917742439" y="772.4912711062606"/>
+   <control_point x="480.3388052688406" y="793.9311965284425"/>
+   <control_point x="514.0819964349377" y="780.4285714285714"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="1" layer="2">
+  <control_points_set>
+   <control_point x="412" y="737"/>
+   <control_point x="472.0000000000001" y="757"/>
+   <control_point x="503" y="769"/>
+   <control_point x="520" y="796"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="1" layer="3">
+  <control_points_set>
+   <control_point x="240.3333333333333" y="401.1428571428572"/>
+   <control_point x="203.7284102389932" y="390.7213512972152"/>
+   <control_point x="169.6470588235294" y="381.8571428571428"/>
+   <control_point x="147.7985739750445" y="415.2857142857143"/>
+   <control_point x="108.6758498578303" y="475.1441798361657"/>
+   <control_point x="53.97860962566846" y="423"/>
+   <control_point x="37.27094474153298" y="497.5714285714287"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="1" layer="3">
+  <control_points_set>
+   <control_point x="311.0196078431373" y="680.1428571428571"/>
+   <control_point x="306.5127752657174" y="679.297491169876"/>
+   <control_point x="271.8648032921756" y="669.4910295655957"/>
+   <control_point x="257.0409982174688" y="678.8571428571429"/>
+   <control_point x="208.2032085561497" y="709.7142857142858"/>
+   <control_point x="161.9358288770053" y="792"/>
+   <control_point x="98.9607843137255" y="750.8571428571429"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="1" layer="3">
+  <control_points_set>
+   <control_point x="41.12655971479499" y="466.7142857142857"/>
+   <control_point x="35.9857397504456" y="527.1428571428572"/>
+   <control_point x="63.25557588118669" y="584.629226679671"/>
+   <control_point x="75.8270944741533" y="618.4285714285714"/>
+   <control_point x="116.9536541889483" y="729"/>
+   <control_point x="80.96791443850267" y="735.4285714285714"/>
+   <control_point x="123.379679144385" y="768.8571428571429"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="0" layer="3">
+  <control_points_set>
+   <control_point x="259.6114081996434" y="498.8571428571427"/>
+   <control_point x="208.1422584821525" y="484.1726181770328"/>
+   <control_point x="202.4782548351224" y="508.7065550332447"/>
+   <control_point x="165.7914438502674" y="543.8571428571429"/>
+   <control_point x="126.2887660075829" y="581.705685957868"/>
+   <control_point x="117.994820703815" y="608.1428571428571"/>
+   <control_point x="61.68983957219252" y="608.1428571428571"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="0" layer="3">
+  <control_points_set>
+   <control_point x="150.3689839572193" y="402.4285714285714"/>
+   <control_point x="205.1366797209474" y="501.1293000913873"/>
+   <control_point x="214.0273449009462" y="605.2951415977595"/>
+   <control_point x="226.1960784313725" y="714.8571428571429"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="1" layer="3">
+  <control_points_set>
+   <control_point x="223" y="383"/>
+   <control_point x="257" y="503"/>
+   <control_point x="266" y="560.0000000000001"/>
+   <control_point x="303" y="690"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="2" layer="4">
+  <control_points_set>
+   <control_point x="379.1354723707665" y="605.5714285714286"/>
+   <control_point x="343.1497326203209" y="673.7142857142857"/>
+   <control_point x="420.6531822263947" y="696.2653676457355"/>
+   <control_point x="456.2477718360071" y="711"/>
+   <control_point x="493.5187165775401" y="726.4285714285714"/>
+   <control_point x="529.5044563279857" y="729"/>
+   <control_point x="542.3565062388592" y="761.1428571428572"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="1" layer="4">
+  <control_points_set>
+   <control_point x="377.8502673796791" y="615.8571428571429"/>
+   <control_point x="340.5793226381462" y="626.1428571428571"/>
+   <control_point x="326.4420677361854" y="645.4285714285716"/>
+   <control_point x="327.7272727272727" y="695.5714285714287"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="2" layer="4">
+  <control_points_set>
+   <control_point x="322.5864527629233" y="662.1428571428572"/>
+   <control_point x="337.1499789156302" y="725.7823278822481"/>
+   <control_point x="411.6501351433673" y="731.7610938815061"/>
+   <control_point x="463.0000000000001" y="755"/>
+   <control_point x="483.9570463694712" y="764.4843255081744"/>
+   <control_point x="510.8212864255154" y="775.8172330848026"/>
+   <control_point x="520.5080213903743" y="798.4285714285714"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="1" layer="4">
+  <control_points_set>
+   <control_point x="538.5008912655971" y="747"/>
+   <control_point x="539.0641571313839" y="770.1468055040073"/>
+   <control_point x="524.7430342034653" y="778.8388227988104"/>
+   <control_point x="510.2263814616755" y="794.5714285714286"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="0" layer="4">
+  <control_points_set>
+   <control_point x="334.1532976827094" y="640.2857142857142"/>
+   <control_point x="338.8976605694002" y="693.4593708984149"/>
+   <control_point x="414.6719161205075" y="711.6304583575134"/>
+   <control_point x="452.3921568627451" y="726.4285714285714"/>
+   <control_point x="482.5366587353201" y="738.2546292268078"/>
+   <control_point x="511.7388679311425" y="757.5130858300649"/>
+   <control_point x="534.6452762923351" y="780.4285714285714"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="0" layer="4">
+  <control_points_set>
+   <control_point x="381" y="655"/>
+   <control_point x="347" y="655"/>
+   <control_point x="339" y="692"/>
+   <control_point x="352.1461675579322" y="716.1428571428571"/>
+  </control_points_set>
+ </curve>
+ <curve curve_type="0" layer="4">
+  <control_points_set>
+   <control_point x="526.934046345811" y="736.7142857142858"/>
+   <control_point x="521.5235575423243" y="758.9461741484372"/>
+   <control_point x="516.7925387907354" y="771.0720958809974"/>
+   <control_point x="494.8039215686275" y="776.5714285714286"/>
+  </control_points_set>
+ </curve>
+</curve_set>

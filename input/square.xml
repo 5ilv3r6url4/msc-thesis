@@ -1,0 +1,51 @@
+<!DOCTYPE CurveSetXML>
+<curve_set image_height="700" image_width="700">
+ <curve layer="0" curve_type="1">
+  <control_points_set>
+   <control_point x="174" y="106"/>
+   <control_point x="159" y="191"/>
+   <control_point x="89" y="521"/>
+   <control_point x="74" y="606"/>
+  </control_points_set>
+ </curve>
+ <curve layer="0" curve_type="1">
+  <control_points_set>
+   <control_point x="116" y="161"/>
+   <control_point x="201" y="146"/>
+   <control_point x="531" y="76"/>
+   <control_point x="616" y="61"/>
+  </control_points_set>
+ </curve>
+ <curve layer="0" curve_type="1">
+  <control_points_set>
+   <control_point x="38" y="556"/>
+   <control_point x="123" y="541"/>
+   <control_point x="453" y="471"/>
+   <control_point x="538" y="456"/>
+  </control_points_set>
+ </curve>
+ <curve layer="0" curve_type="1">
+  <control_points_set>
+   <control_point x="580" y="45"/>
+   <control_point x="565" y="130"/>
+   <control_point x="495" y="460"/>
+   <control_point x="480" y="545"/>
+  </control_points_set>
+ </curve>
+ <curve layer="0" curve_type="0">
+  <control_points_set>
+   <control_point x="84" y="347"/>
+   <control_point x="169" y="332"/>
+   <control_point x="499" y="262"/>
+   <control_point x="584" y="247"/>
+  </control_points_set>
+ </curve>
+ <curve layer="0" curve_type="0">
+  <control_points_set>
+   <control_point x="371" y="65"/>
+   <control_point x="356" y="150"/>
+   <control_point x="286" y="480"/>
+   <control_point x="271" y="565"/>
+  </control_points_set>
+ </curve>
+</curve_set>
